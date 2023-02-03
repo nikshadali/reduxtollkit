@@ -1,0 +1,36 @@
+.card{
+   width: 350px;
+    height: 450px;
+    display: flex;
+   flex-direction: column;
+  align-items: center;
+   justify-content: center;
+    
+  
+   
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 30px;
+    img{
+        width: 180px;
+        height: 50%;
+        object-fit: cover;
+    }
+    h2{
+        padding: 10px 30px;
+        font-size: 18px;
+    }
+
+    button{
+        padding: 10px 30px;
+        background: #2879ef;
+        border: none;
+        outline: none;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        color: #fff;
+       align-items: center;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+    }
+}
